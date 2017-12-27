@@ -1,0 +1,32 @@
+{
+  "name": "ts-crypto-utils",
+  "version": "0.0.1",
+  "description": "TypeScript crypto utils",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "keywords": [
+    "typescript",
+    "crypto",
+    "utils"
+  ],
+  "files": [
+    "lib/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "compile": "tsc"
+  },
+  "author": "Carlos Galarza <carloslfu@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FractalBlocks/Fractal.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/core-js": "^0.9.43",
+    "@types/node": "^8.0.26"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.0-dev.20170619"
+  }
+}

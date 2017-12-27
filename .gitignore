@@ -1,0 +1,14 @@
+lib/
+node_modules/
+
+.vscode
+
+# System stuff
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.directory
