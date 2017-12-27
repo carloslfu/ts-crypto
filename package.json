@@ -1,5 +1,5 @@
 {
-  "name": "ts-crypto-utils",
+  "name": "ts-crypto",
   "version": "0.0.1",
   "description": "TypeScript crypto utils",
   "main": "lib/index.js",
