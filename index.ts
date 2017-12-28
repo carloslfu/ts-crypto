@@ -1,4 +1,5 @@
 import crypto = require('crypto')
+import * as stringify from 'json-stable-stringify'
 
 export const hmac = function (alg, str, keyForPass) {
   var inst = crypto.createHmac(alg, keyForPass)
@@ -26,6 +27,6 @@ export const decryptText = (text, key) => {
   return dec
 }
 
-export const encryptObj = (obj, key) => encryptText(JSON.stringify(obj), key)
+export const encryptObj = (obj, key) => encryptText(stringify(obj), key)
 
 export const decryptObj = (text, key) => JSON.parse(decryptText(text, key))

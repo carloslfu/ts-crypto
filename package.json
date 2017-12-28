@@ -1,6 +1,6 @@
 {
   "name": "ts-crypto",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "TypeScript crypto utils",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -24,7 +24,8 @@
   "license": "MIT",
   "dependencies": {
     "@types/core-js": "^0.9.43",
-    "@types/node": "^8.0.26"
+    "@types/node": "^8.0.26",
+    "json-stable-stringify": "^1.0.1"
   },
   "devDependencies": {
     "typescript": "^2.5.0-dev.20170619"
